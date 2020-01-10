@@ -1,0 +1,46 @@
+.nameinfo{
+    background-color: #242733;
+    color: #F4F7F7;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 40px;
+}
+.edit{
+    height:35px;
+    margin-left: 20px;
+    margin-top: 49px;
+    border-radius: 25px;
+    width: 60px;
+    background-color: #F4F7F7;
+}
+.first{
+    margin-right:20px;
+}
+.saveinfo{
+    background-color: #242733;
+    color: #F4F7F7;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 40px;
+    height:100px;
+}
+.names{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+form{
+    display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.save{
+    height:35px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 25px;
+    width: 60px;
+    background-color: #F4F7F7;
+}

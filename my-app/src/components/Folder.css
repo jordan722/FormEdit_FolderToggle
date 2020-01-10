@@ -1,0 +1,20 @@
+.folder{
+    background-color: #645E8C;
+    text-align: center;
+    height: 700px;
+}
+li{
+    list-style-position: inside;
+    margin-right: 50px;
+    color: #F4F7F7;
+}
+h2{
+    font-size: 35px;
+    color: #F4F7F7;
+}
+button{
+    height:35px;
+    border-radius: 25px;
+    width: 60px;
+    background-color: #F4F7F7;
+}

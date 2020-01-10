@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import Form from './components/Form';
 import Folder from './components/Folder'
-import './App.css';
+
 
 function App() {
   return (

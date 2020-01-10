@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import "./Folder.css";
 class Folder extends Component{
   constructor(props){
     super(props);
@@ -23,7 +23,7 @@ class Folder extends Component{
 
   render(){
       return(
-        <div>
+        <div class="folder">
           <h2> Home </h2>
 
           {this.state.toggle && (

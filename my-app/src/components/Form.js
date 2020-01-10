@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Form.css';
 
 class Form extends Component{
   constructor(props){
@@ -59,22 +60,23 @@ class Form extends Component{
   render(){
     if (this.state.editing){
       return(
+        <div class="saveinfo">
         <form>
-          <div>
-            First Name: <input name='first' type="text" value={this.state.type_first} onChange={this.handleNameChange}/>
-            Last Name: <input name='last' type="text" value={this.state.type_last} onChange={this.handleNameChange}/>
-            <button onClick={this.handleSave}> Save </button>
-            <button onClick={this.handleCancel}> Cancel </button>
-          </div>
+            <p class="names">First Name: <input name='first' type="text" value={this.state.type_first} onChange={this.handleNameChange}/></p> 
+            <p class="names">Last Name: <input name='last' type="text" value={this.state.type_last} onChange={this.handleNameChange}/></p>
+            <button class="save" onClick={this.handleSave}> Save </button>
+            <button class="save" onClick={this.handleCancel}> Cancel </button>
+          
         </form>
+        </div>
       );
     }
     else{
       return(
-        <div>
-          First Name: {this.state.first}
-          Last Name: {this.state.last}
-          <button onClick={this.handleEdit}> Edit </button>
+        <div class="nameinfo">
+           <p class="first">First Name: {this.state.first}</p>
+           <p class="last">Last Name: {this.state.last}</p>
+          <button class="edit" onClick={this.handleEdit}> Edit </button>
         </div>
 
       );
